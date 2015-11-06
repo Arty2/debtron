@@ -1,0 +1,9 @@
+# Site settings
+title: Debtron
+tag_text: DEBTRON
+description: Debtron is a state of the art integrated mechanism, particularly effective in the rationalization and deflation of national debt. It is an essential apparatus aimed at all accredited, aspiring and industrious politicians and legislators.
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]

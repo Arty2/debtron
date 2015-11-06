@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>  
+  <meta property="og:site_name" content="{{ site.title }}"/>
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://debtron.xyz/" />
+  <meta property="og:image" content="http://debtron.xyz/media/cover.jpg" />
+  <meta property="og:description" content="{{ site.description }}"/>
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/solo.css">  
+  <link rel="icon" type="image/ico" href="favicon.ico">
+{% include head.html %}
+</head>
+<body>
+  <!--[if lt IE 11]>
+  <p class="notice">You are using a very old browser therefore you can’t expect this website —or “the internet”— to work properly.<br />
+  Do yourself a favor and <a href="http://browsehappy.com/">download a better one</a>.</p>
+  <![endif]-->
+  <div id="cover" role="banner">
+    <video autoplay loop id="videoloop" poster="./media/cover.jpg">
+      <source src="./media/debtron_loop.webm" type="video/webm">
+      <source src="./media/debtron_loop.mp4" type="video/mp4">
+    </video>
+    <h1><a href="./">debtron</a></h1>
+    <header>
+      <a id="promo" class="button" href="https://www.youtube.com/watch?v=RDj0kDNqcSU">watch the promo</a>
+    </header>
+  </div>
+  <main>
+    {{ content }}
+    <footer>
+    <a href="https://github.com/Arty2/debtron/tree/master"><em>Debtron</em> is an Open Source art project,<br>
+    licensed under <em>CC NC BY 4.0</em></a>
+    </footer>
+  </main>
+{% include scripts.html %}
+</body>
+</html>
