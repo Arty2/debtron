@@ -81,8 +81,8 @@ The operator can modify the following variables by turning the potentionmeter kn
 
 ## License
 
-[Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-nc/4.0/)
+[Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
 
-![CC BY-SA](https://licensebuttons.net/l/by-nc/3.0/88x31.png) 
+[![CC BY-SA](https://licensebuttons.net/l/by-nc/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
