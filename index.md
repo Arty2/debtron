@@ -3,6 +3,8 @@ layout: default
 published: true
 ---
 
+## Order yours today
+We’re feverishly working towards a crowdfunding campaign, so make sure to [**Like us on Facebook**](https://www.facebook.com/debtron) for our latest news. Nevertheless, in case of imminent elections, we invite you to contact our sales department at [info@debtron.xyz](mailto:info@debtron.xyz?subject=SHUT%20UP%20AND%20TAKE%20MY%20MONEY) for a private product trial.—
 
 ## The Debtron method
 *Debtron* is a state of the art integrated mechanism in compliance with the *OCDE Toolkit*, particularly effective in the rationalization and deflation of national debt. It is an essential apparatus aimed at all accredited, aspiring and industrious politicians and legislators.
@@ -40,6 +42,3 @@ The afforementioned variables range between the actual minimum and maximum value
 > Let them solve the problem.
 >
 > — [*Donald Trump* on the Greek Crisis](http://www.breitbart.com/video/2015/07/05/trump-greek-debt-crisis-a-problem-for-germany-and-rest-of-europe-not-us/)
-
-## Order yours today
-We’re feverishly working towards a crowdfunding campaign, so make sure to [**Like us on Facebook**](https://www.facebook.com/debtron) for our latest news. Nevertheless, in case of imminent elections, we invite you to contact our sales department at [info@debtron.xyz](mailto:info@debtron.xyz?subject=SHUT%20UP%20AND%20TAKE%20MY%20MONEY) for a private product trial.—
