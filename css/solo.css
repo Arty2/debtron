@@ -300,13 +300,14 @@ main {
 	font-weight: normal;
 	speak: none;
 	display: inline-block;
-	text-decoration: inherit;
+	text-decoration: none;
 	width: 2.5rem;
 	text-align: center;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1em;
 	border: none !important;
+	color: #fff;
 }
 	.icon:hover {
 		font-size: 2.5rem;
