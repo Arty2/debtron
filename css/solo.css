@@ -286,6 +286,8 @@ main {
 
 .social {
 	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 	bottom: 0;
 	z-index: 1000;
 	text
@@ -323,5 +325,5 @@ main {
 }
 	.icon:hover {
 		font-size: 2.3rem;
-		color: #000;
+		color: #fff;
 	}
