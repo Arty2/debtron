@@ -284,6 +284,13 @@ main {
 	padding: 0 1rem;
 }
 
+.social {
+	position: absolute;
+	bottom: 0;
+	z-index: 1000;
+	text
+}
+
 @font-face {
 	/* via entypo.com and icomoon.io */
 	font-family: 'icons';
@@ -300,15 +307,21 @@ main {
 	font-weight: normal;
 	speak: none;
 	display: inline-block;
-	text-decoration: none;
-	width: 2.5rem;
+	text-decoration: none !important;
+	width: 2rem;
 	text-align: center;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1em;
 	border: none !important;
-	color: #fff;
+	color: rgba(0,0,0,0.8);
+	mix-blend-mode: overlay;
+
+	-webkit-transition  : all .3s;
+	-moz-transition     : all .3s;
+	transition          : all .3s;
 }
 	.icon:hover {
-		font-size: 2.5rem;
+		font-size: 2.3rem;
+		color: #000;
 	}
