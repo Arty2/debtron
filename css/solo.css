@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:700);
-@import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(//fonts.googleapis.com/css?family=Montserrat:300);
+@import url(//fonts.googleapis.com/css?family=Inconsolata:700);
 
 html {
 	color: #bd9f5c;
@@ -74,7 +74,7 @@ h1 {
 	transform: translate(-50%, -50%);
 	
 	/* doesn't play well with pattern.png */
-	mix-blend-mode: overlay;
+	/*mix-blend-mode: overlay;*/
 }
 
 header {
@@ -143,6 +143,7 @@ a.button {
 	color: #fff1e0;
 	font-weight: bold;
 	text-align: center;
+	text-decoration: none;
 	text-transform: uppercase;
 	vertical-align: middle;
 
@@ -163,20 +164,25 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Inconsolata, monospace;
 	margin: 0 0 0.5rem -0.1rem /* align left edge */;
 	line-height: 1;
-	color: #111;
+	color: #fff;
 	text-rendering: optimizeLegibility;
 }
 
 h1 {
+	height: 8rem;
+
 	font-size: 2.5rem;
 	margin-bottom: 1rem;
 	text-transform: uppercase;
 }
 
+h1 #logo {
+	height: 6rem;
+}
+
 @media (min-width: 30rem) {
 	h1 {
 		font-size: 4rem;
-		height: 4rem;
 		margin-bottom: 3rem;
 	}
 }
@@ -226,7 +232,7 @@ blockquote {
 	margin-left: 1rem;
 	margin-right: 0;
 	padding: .5rem 1rem;
-	border-left: .2px solid #bd9f5c;
+	border-left: .2px dashed #bd9f5c;
 	color: #bd9f5c;
 }
 
