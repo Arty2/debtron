@@ -2,7 +2,6 @@
 @import url(//fonts.googleapis.com/css?family=Inconsolata:700);
 
 html {
-	color: #bd9f5c;
 	font: 16px/1.5 Montserrat, sans-serif;
 }
 
@@ -112,7 +111,7 @@ footer {
 body {
 	margin: 0 0 5rem;
 	background: #151515;
-	color: #333;
+	color: #bd9f5c;
 }
 
 @media (min-width: 30rem) {
@@ -325,7 +324,7 @@ main {
 	text-transform: none;
 	line-height: 1em;
 	border: none !important;
-	color: #bd9f5c;
+	color: #fff;
 	mix-blend-mode: overlay;
 
 	-webkit-transition  : all .3s;
@@ -333,5 +332,5 @@ main {
 	transition          : all .3s;
 }
 	.icon:hover {
-		color: #fff;
+		color: #bd9f5c;
 	}
