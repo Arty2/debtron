@@ -2,12 +2,13 @@
 @import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 html {
-	font: 16px/1.5 Inconsolata, sans-serif;
+	color: #bd9f5c;
+	font: 16px/1.5 Montserrat, sans-serif;
 }
 
 .notice {
-	background: #000;
-	color: #fff;
+	background: #fff;
+	color: #000;
 	font-size: 25px;
 }
 
@@ -41,7 +42,7 @@ html {
 
 	height: 100vh;
 
-	color: #fff;
+	color: #bd9f5c;
 	text-align: center;
 }
 #cover::before {
@@ -110,7 +111,7 @@ footer {
 
 body {
 	margin: 0 0 5rem;
-	background: #fff1e0;
+	background: #151515;
 	color: #333;
 }
 
@@ -121,13 +122,13 @@ body {
 }
 
 a {
-	color: #0074d9; /* From http://clrs.cc */
-	text-decoration: none;
+	color: #bd9f5c;
+	text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-	text-decoration: underline;
+	color: #fff;
 }
 
 a.button {
@@ -159,7 +160,7 @@ a.button {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Montserrat, sans-serif;
+	font-family: Inconsolata, monospace;
 	margin: 0 0 0.5rem -0.1rem /* align left edge */;
 	line-height: 1;
 	color: #111;
@@ -175,12 +176,13 @@ h1 {
 @media (min-width: 30rem) {
 	h1 {
 		font-size: 4rem;
+		height: 4rem;
 		margin-bottom: 3rem;
 	}
 }
 
 h1 a {
-	color: #000;
+	color: #bd9f5c;
 }
 	h1 a:hover,
 	h1 a:focus {
@@ -221,11 +223,11 @@ dd {
 }
 
 blockquote {
-	margin-left: 0;
+	margin-left: 1rem;
 	margin-right: 0;
 	padding: .5rem 1rem;
-	border-left: .25rem solid #ccc;
-	color: #666;
+	border-left: .2px solid #bd9f5c;
+	color: #bd9f5c;
 }
 
 blockquote p:last-child {
@@ -317,7 +319,7 @@ main {
 	text-transform: none;
 	line-height: 1em;
 	border: none !important;
-	color: rgba(0,0,0,0.8);
+	color: #bd9f5c;
 	mix-blend-mode: overlay;
 
 	-webkit-transition  : all .3s;
