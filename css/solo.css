@@ -219,10 +219,10 @@ p, ul, ol, dl, table, pre, blockquote {
 	margin-bottom: 1rem;
 }
 p {
-	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
+	text-align: justify;
 }
 
 ul, ol {
