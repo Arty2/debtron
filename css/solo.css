@@ -139,7 +139,7 @@ a.button {
 
 	background: rgba(43,0,0,0.8);
 	border-radius: 1rem;
-	color: #bd1e2e;
+	color: #bd9f5c;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
@@ -163,8 +163,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Mono', monospace;
 	margin: 0 0 0.5rem -0.1rem /* align left edge */;
 	line-height: 1;
-	color: #bd1e2e;
+	color: #bd9f5c;
 	text-rendering: optimizeLegibility;
+}
+h2:after, h3:after, h4:after, h5:after, h6:after {
+	content: "•";
+	color: #bd1e2e;
 }
 
 h1 {
